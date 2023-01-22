@@ -1,3 +1,44 @@
-.topnav {
-    background-color: black;
+* {
+    color: white;
+}
+html {
+    height: 100%;
+    display: block;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: gray;
+    margin: 0;
+}
+
+.nav-bar {
+    position: fixed;
+    display: block;
+    clear: none;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.53) ;
+    text-align: left;
+    top: 0%;
+    
+}
+
+li , a {
+    text-emphasis-style: none;
+    display: inline;
+    width: 5px;
+    height: auto;
+    margin: 5px;
+    text-decoration: none;
+    padding: 15px 40px 15 px;
+}
+
+.bg-image, img {
+    position: inherit;
+    float: left;
+    top: 10%;
+    left: 150px;
+    image-rendering: auto;
+    background-color: rgb(40, 36, 36);
+
 }
